@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(black blue);
+    height: 100vh;
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/155/60/desktop-wallpaper-super-mario-bros-super-mario-bros-backgrounds-and-nintendo-mario.jpg);
+}
+@font-face {
+    font-family: mario;
+    src: url(/fonts/RetroMario-Regular.otf);
+}
+h1{
+    font-family: mario;
+    font-size: 5rem;
+}
+.amarillo{
+    color: yellow;
+}
+.verde{
+    color: greenyellow;
+}
+.azul{
+    color: blue;
+}
+.posicion-mario{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
